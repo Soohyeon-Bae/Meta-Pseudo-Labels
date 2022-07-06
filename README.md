@@ -1,8 +1,8 @@
 # Meta-Pseudo-Labels
 
-# Background
+## Background
 
-**Meta Learning** - ****“학습하는 방법을 학습한다.”
+**Meta Learning** - “학습하는 방법을 학습한다.”
 
 “Learning new concepts and skills fast **with a few training examples”**
 
@@ -13,9 +13,9 @@ Learning into two stages :
 
 ---
 
-# Approches
+## Approches
 
-## Pseudo Label
+### Pseudo Label
 
 - Noisy Student  Model의 핵심 아이디어
 
@@ -37,9 +37,9 @@ Learning into two stages :
 
 ---
 
-# MPL(Meta Pseudo Labels)
+## MPL(Meta Pseudo Labels)
 
-## 확증편향 보완
+### 확증편향 보완
 
 - **Feedback** from the Student → Teacher to generate better pseudo labels
 - Student 학습 과정에서 Teacher도 지속적으로 업데이트
@@ -48,7 +48,7 @@ Learning into two stages :
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c76590ad-eebf-4b7f-82fe-7348e69aeb9b/Untitled.png)
     
 
-## Semi-Supervised Learning
+### Semi-Supervised Learning
 
 - Teacher Network → Unlabeled data에서 Pseudo Label 생성
 - Student Network → Unlabeled data에서 Pseudo Label로 학습
@@ -61,7 +61,7 @@ Learning into two stages :
 
 ---
 
-## Reference
+### Reference
 
 [](https://arxiv.org/pdf/2003.10580v4.pdf)
 
