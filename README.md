@@ -2,7 +2,7 @@
 
 ## Background
 
-**Meta Learning** - “학습하는 방법을 학습한다.”
+**Meta Learning** - “학습하는 방법을 학습한다.” 
 
 “Learning new concepts and skills fast **with a few training examples”**
 
